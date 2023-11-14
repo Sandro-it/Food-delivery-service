@@ -20,7 +20,7 @@
     <title>Food delivery service</title>
     
     <script type="module" crossorigin src="/Food-delivery-service/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Food-delivery-service/assets/index-46fcd2a4.css">
+    <link rel="stylesheet" href="/Food-delivery-service/assets/index-3217a132.css">
   </head>
 
   <body>
@@ -29,13 +29,157 @@
 </header>
 
     
-    
+    <section class="offerings">
+  <div class="container">
+    <div class="offerings__box">
+      <ul class="offerings__apple-list">
+        <li class="offerings__apple-item">
+          <div class="offerings__img-border">
+            <div class="offerings__img-background">
+              <picture>
+                <source
+                  srcset="/Food-delivery-service/assets/apple-offerings-tablet@1x-a8ba27fd.webp 1x, /Food-delivery-service/assets/apple-offerings-tablet@2x-d0cc0f71.webp 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/Food-delivery-service/assets/apple-offerings-desctop@1x-84e1e075.webp 1x, /Food-delivery-service/assets/apple-offerings-desctop@2x-71712ebd.webp 2x"
+                  media="(min-width: 1280px)"
+                />
+                <img
+                  src="/Food-delivery-service/assets/apple-offerings-desctop@1x-84e1e075.webp"
+                  alt=""
+                  class="offerings__img"
+                />
+              </picture>
+              <div class="offerings__img-shadow"></div>
+            </div>
+          </div>
+        </li>
+        <li class="offerings__apple-item">
+          <img
+            class="offerings__big-inv-apple"
+            src="/Food-delivery-service/assets/offerings-big-inv-apple-tablet-be7bdcdd.png"
+            alt=""
+          />
+        </li>
+        <li class="offerings__apple-item">
+          <img
+            class="offerings__small-inv-apple"
+            src="/Food-delivery-service/assets/offerings-small-inv-apple-tablet-89db6c00.png"
+            alt=""
+          />
+        </li>
+      </ul>
+      <div>
+        <h2 class="offerings__title">What’s Special About Our Offerings</h2>
+        <p class="offerings__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          <br />
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          <br />
+          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+        </p>
+        <ul class="offerings__list">
+          <li class="offerings__item">
+            <div class="offerings__svg-background">
+              <svg class="offerings__svg-1" width="26.92px" height="26.68px">
+                <use
+                  href="/Food-delivery-service/assets/offerings-section-df2f30e7.svg#icon-rocket"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="offerings__item-title">Fasest Delivery</h3>
+            <p class="offerings__item-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim<br />
+              in eros.
+            </p>
+          </li>
+          <li class="offerings__item">
+            <div class="offerings__svg-background">
+              <svg class="offerings__svg-2" width="21.25px" height="28px">
+                <use
+                  href="/Food-delivery-service/assets/offerings-section-df2f30e7.svg#icon-finger"
+                  class="offerings__use"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="offerings__item-title">Easy To Order</h3>
+            <p class="offerings__item-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enims<br />
+              in eros.
+            </p>
+          </li>
+        </ul>
+        <div class="offerings__min-box">
+          <button class="offerings__button" data-open-offerings-modal>
+            Order Now
+          </button>
+          <p class="offerings__more">Read more ></p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="offerings__backdrop offerings__is-hidden"
+      data-offerings-backdrop
+    >
+      <form class="offerings-modal">
+        <button
+          type="button"
+          class="offerings-modal__close-button"
+          data-close-offerings-modal
+        >
+          <svg class="offerings-modal__svg">
+            <use href="/Food-delivery-service/assets/offerings-section-df2f30e7.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h3 class="offerings-modal__title">Order Form</h3>
+        <ul class="offerings-modal__list">
+          <li class="offerings-modal__item">
+            <p class="offerings-modal__description">Name</p>
+            <input
+              type="text"
+              id="name"
+              placeholder="Your name"
+              class="offerings-modal__input"
+              required
+            />
+          </li>
+          <li class="offerings-modal__item">
+            <p class="offerings-modal__description">Phone number</p>
+            <input
+              type="text"
+              id="Phone"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+              class="offerings-modal__input"
+              required
+            />
+          </li>
+          <li class="offerings-modal__item">
+            <p class="offerings-modal__description">E-mail</p>
+            <input
+              type="text"
+              id="e-mail"
+              placeholder="example@gmail.com"
+              class="offerings-modal__input"
+              required
+            />
+          </li>
+        </ul>
+        <button type="submit" class="offerings-modal__send-button">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
+
     
     
     
     
     
 
+    
     
   </body>
 </html>
