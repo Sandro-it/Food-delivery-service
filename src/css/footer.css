@@ -1,0 +1,239 @@
+
+.footer {
+    padding: 60px 20px;
+    background-image: url(/img/footer/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .footer {
+      background-image: url(/img/footer/background-2x.png);
+    }
+  }
+
+.footer-nav-menu {
+display:flex;
+flex-direction: row;
+
+}
+.footer-logo {
+ margin-right: 46px;
+    }
+
+.nav-menu-link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+       }
+.footer-form  {
+    margin-top: 20px;
+    margin-bottom: 60px;
+       }
+.footer-form-text {
+color: #2C2C2C;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.5; 
+margin-bottom: 12px;
+}
+
+
+.footer-form-input  {
+  border-radius: 30px;
+  border: 0.854px solid var(--Yellow-main, #FFE550);
+  background: var(--White, #FFF);
+  height: 42px;
+  width:100%;
+  margin-bottom: 20px;
+  color: var(--Black, #2C2C2C);
+font-size: 12px;
+font-weight: 400;
+line-height: 1.25;
+padding-left: 12px;
+font-family: Roboto;
+transition: border .35s cubic-bezier(.4,0,.2,1);
+
+}
+.footer-form-input::placeholder {
+  color: var(--neutral-dark-gray, #505050);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+.footer-subscribe-btn  {
+  border-radius: 30px;
+  border: 0.854px solid #7EB101;
+  background: #FFF;
+  width: 103px;
+height: 35px;
+margin-bottom: 24px;
+color: #2C2C2C;
+font-size: 13px;
+font-weight: 500;
+line-height: 1.5;
+transition: border .35s cubic-bezier(.4,0,.2,1);
+     }
+ 
+     .privacy-policy-text {
+     color: #2C2C2C;
+     font-size: 10px;
+     font-weight: 400;
+     line-height: normal;
+
+    }
+
+.span-privacy {
+  color: #7EB101;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+
+ }
+
+.footer-terms-link {
+ color: var(--Dark-green, #7EB101);
+ font-size: 10px;
+ font-weight: 400;
+ line-height: normal;
+ text-decoration-line: underline;
+ 
+}
+
+.footer-terms {
+display:flex;
+flex-direction: row;
+align-items:center;
+justify-content: space-between;
+margin-bottom: 40px;
+ }
+
+ .all-rights {
+  color: #2C2C2C;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  
+ }
+
+ .footer-subscribe-btn:hover,
+ .footer-subscribe-btn:active
+ .footer-subscribe-btn:focus
+  {
+    border: 2px solid #FFE450;
+}
+
+.footer-form-input:hover,
+.footer-form-input:active,
+.footer-form-input:focus
+{
+  border: 0.854px solid var(--Dark-green, #7EB101);
+}
+
+/* ==================== 768 PX ====================  */
+
+@media screen and (min-width: 768px) {
+    .footer {
+    background-image: url(/img/footer/background-tab.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+
+ @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .footer {
+    background-image: url(/img/footer/background-tab-2x.png);
+  }
+} 
+.footer-logo {
+margin-right: 114px;
+    }
+
+
+.footer-menu-list {
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  gap:28px;
+    }
+
+    .footer-nav-menu {
+    margin-bottom: 40px;
+    align-items: center;
+          }
+
+.footer-form-input {
+width: 279px;
+margin-right: 13px;
+margin-bottom: 12px;
+        }
+
+.footer-subscribe-btn {
+ height: 42px;
+ margin-bottom: 12px;
+
+        }
+.privacy-policy-text {
+font-size: 12px;
+ 
+         }
+.footer-form {
+ margin-bottom: 100px;
+   
+           } 
+ .footer-united {
+ display:flex;
+ justify-content: space-between;
+  
+            } 
+.footer-terms {
+ gap:20px;
+
+  } 
+}
+
+/* ==================== 1280 PX ====================  */
+
+@media screen and (min-width: 1280px) {
+    .footer {
+      background-image: url(/img/footer/background-desk.png);
+      background-size: contain;
+    }
+
+  @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .footer {
+    background-image: url(/img/footer/background-desk-2x.png);
+  }
+}
+.footer-logo {
+  margin-left: 5px;
+  margin-right: 143px;
+}
+
+.nav-menu-form-united {
+ display:flex;
+ flex-direction:row;
+ align-items:center;
+ justify-content:space-between;
+}
+.footer-terms-link,
+.all-rights 
+{
+font-size: 12px;
+}
+
+}
