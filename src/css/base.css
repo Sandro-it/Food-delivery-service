@@ -71,9 +71,9 @@ img {
   margin-right: auto;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
   .container {
-    max-width: 375px;
+    max-width: 320px;
   }
 }
 
