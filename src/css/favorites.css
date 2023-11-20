@@ -1,0 +1,124 @@
+.favorites {
+  padding: 60px 0;
+}
+.container {
+}
+
+.kontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+.favorites-title {
+  color: #2c2c2c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.favorites-text {
+  color: #2c2c2c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.favorites-list .favorites-list-item:nth-last-child(-n + 3) {
+  display: none;
+}
+
+.favorites-list-item {
+}
+
+.favorites-list-item-border {
+  width: 280px;
+  height: 282px;
+  border-radius: 50%;
+  border: 11px solid #ffe550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.favorites-list-item-img {
+  width: 223.291px;
+  height: 223.489px;
+}
+.favorites-img {
+}
+
+@media screen and (min-width: 768px) {
+  .favorites {
+    padding: 100px 0;
+  }
+
+  .favorites-title {
+    font-size: 42px;
+  }
+
+  .favorites-text {
+    font-size: 16px;
+  }
+
+  .favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px 32px;
+  }
+
+  .favorites-list .favorites-list-item:nth-last-child(-n + 3) {
+    display: flex;
+  }
+
+  .favorites-list-item-border {
+    width: 336px;
+    height: 338px;
+    border-radius: 50%;
+    border: 14px solid #ffe550;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .favorites-list-item-img {
+    width: 268.629px;
+    height: 268.186px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .favorites-title {
+    font-size: 49px;
+  }
+
+  .favorites-list-item {
+    width: calc((100% - 64px) / 3);
+  }
+
+  .favorites-list-item-border {
+    width: 395px;
+    height: 397px;
+    border: 16px solid #ffe550;
+  }
+
+  .favorites-list-item-img {
+    width: 315px;
+    height: 315px;
+  }
+}
